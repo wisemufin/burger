@@ -1,19 +1,27 @@
-li {
-  padding: 5px;
-  margin: 5px;
-  background: #faebd7;
+body {
+    background-color: #E6DA9F;
+    font-family: 'Lato', sans-serif;
 }
 
-.label {
-  font-weight: bold;
+* {
+    background-color: #FBF6C3;
 }
 
-.create-update-form {
-  padding: 5px;
-  margin: 5px;
-  background: aqua;
+pre {
+    background-color: #77F290;
+    font-size: 1.5em;
+    overflow: hidden;
+    font-family: 'Roboto', sans-serif;
 }
 
-.form-group {
-  margin-bottom: 5px;
+img {
+    width: 25%;
+}
+
+.form-control[readonly] {
+    color: black;
+    margin: 5px;
+    border: 20px;
+    font-size: 1.5em;
+    font-family: 'Roboto', sans-serif;
 }
